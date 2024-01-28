@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "zcg-aws-project"
+version = "0.1.0"
+description = "AWS Transcribe Project: NLP for Clinical Settings"
+authors = ["Michael Nau <michaelwnau@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "zcg_aws_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
